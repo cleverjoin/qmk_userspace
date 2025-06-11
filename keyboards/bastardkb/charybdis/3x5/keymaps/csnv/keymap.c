@@ -48,7 +48,7 @@ static uint16_t auto_pointer_layer_timer = 0;
 #endif     // CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 
 #define ESC_MED LT(LAYER_MEDIA, KC_ESC)
-#define ESC_ALT MT(KC_ALT, KC_ESC)
+#define ESC_ALT MT(KC_LALT, KC_ESC)
 #define SPC_NAV LT(LAYER_NAVIGATION, KC_SPC)
 #define SPC_GM2 LT(LAYER_GAME2, KC_SPC)
 #define TAB_FUN LT(LAYER_FUNCTION, KC_TAB)
