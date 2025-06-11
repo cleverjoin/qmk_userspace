@@ -169,7 +169,7 @@ static uint16_t auto_pointer_layer_timer = 0;
 /** \brief GAME2 QWERTY layout (3 rows, 10 columns). */
 #define LAYOUT_LAYER_GAME2                                                                    \
        KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    _______________DEAD_HALF_ROW_______________, \
-       KC_G,    _______,    _______,    _______,    KC_H,    _______________DEAD_HALF_ROW_______________, \
+       _______,    _______,    _______,    _______,    KC_G,    _______________DEAD_HALF_ROW_______________, \
        KC_N,    _______,    _______,    _______,    KC_M,    _______________DEAD_HALF_ROW_______________, \
                       DF(LAYER_BASE), _______, _______, _______, _______                      
 
