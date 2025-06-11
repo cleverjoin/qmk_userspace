@@ -131,7 +131,7 @@ static uint16_t auto_pointer_layer_timer = 0;
     _______________DEAD_HALF_ROW_______________, _______________DEAD_HALF_ROW_______________, \
     ______________HOME_ROW_GACS_L______________, KC_CAPS, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, \
     _______________DEAD_HALF_ROW_______________,  KC_INS, KC_HOME, KC_PGDN, KC_PGUP,  KC_END, \
-                      DF(LAYER_GAME1), _______, XXXXXXX,  KC_ENT, KC_BSPC
+                      DF(7), _______, XXXXXXX,  KC_ENT, KC_BSPC
 
 /**
  * \brief Numeral layout.
@@ -171,7 +171,7 @@ static uint16_t auto_pointer_layer_timer = 0;
        KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    _______________DEAD_HALF_ROW_______________, \
        _______,    _______,    _______,    _______,    KC_G,    _______________DEAD_HALF_ROW_______________, \
        KC_N,    _______,    _______,    _______,    KC_M,    _______________DEAD_HALF_ROW_______________, \
-                      DF(LAYER_BASE), _______, _______, _______, _______                      
+                      DF(0), _______, _______, _______, _______                      
 
 /**
  * \brief Add Home Row mod to a layout.
@@ -231,7 +231,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_POINTER] = LAYOUT_wrapper(LAYOUT_LAYER_POINTER),
   [LAYER_SYMBOLS] = LAYOUT_wrapper(LAYOUT_LAYER_SYMBOLS),
   [LAYER_GAME1] = LAYOUT_wrapper(LAYOUT_LAYER_GAME1),
-  [LAYER_GAME2] = LAYOUT_wrapper(LAYOUT_LAYER_GAME2)
+  [LAYER_GAME2] = LAYOUT_wrapper(LAYOUT_LAYER_GAME2),
 };
 // clang-format on
 
