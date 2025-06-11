@@ -162,9 +162,9 @@ static uint16_t auto_pointer_layer_timer = 0;
 /** \brief GAME1 QWERTY layout (3 rows, 10 columns). */
 #define LAYOUT_LAYER_GAME1                                                                    \
        KC_TAB,    KC_1,    KC_2,    KC_3,    KC_4,    _______________DEAD_HALF_ROW_______________, \
-       KC_CTRL,    KC_Q,    KC_W,    KC_E,    KC_R,    _______________DEAD_HALF_ROW_______________, \
+       KC_LCTL,    KC_Q,    KC_W,    KC_E,    KC_R,    _______________DEAD_HALF_ROW_______________, \
        KC_Z,    KC_A,    KC_S,    KC_D,    KC_F,    _______________DEAD_HALF_ROW_______________, \
-                      ESC_ALT, KC_SHIFT, SPC_GM2, XXXXXXX, XXXXXXX
+                      ESC_ALT, KC_LSFT, SPC_GM2, XXXXXXX, XXXXXXX
 
 /** \brief GAME2 QWERTY layout (3 rows, 10 columns). */
 #define LAYOUT_LAYER_GAME2                                                                    \
